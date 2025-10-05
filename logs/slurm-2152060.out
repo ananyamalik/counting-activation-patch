@@ -1,0 +1,276 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:27<00:27, 27.38s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:37<00:00, 17.09s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:37<00:00, 18.63s/it]
+0it [00:00, ?it/s]/shared/EL9/explorer/anaconda3/2024.06/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:540: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/shared/EL9/explorer/anaconda3/2024.06/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:545: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+1it [00:32, 32.31s/it]2it [01:05, 32.99s/it]3it [01:36, 32.14s/it]4it [02:05, 30.91s/it]5it [02:42, 33.06s/it]6it [03:15, 33.04s/it]7it [03:46, 32.26s/it]8it [04:14, 30.89s/it]9it [04:45, 31.02s/it]10it [05:15, 30.52s/it]11it [05:53, 33.02s/it]12it [06:22, 31.81s/it]13it [06:51, 30.74s/it]14it [07:18, 29.83s/it]15it [07:53, 31.21s/it]16it [08:23, 30.84s/it]17it [08:59, 32.57s/it]18it [09:33, 32.92s/it]19it [10:09, 33.78s/it]20it [10:44, 34.06s/it]21it [11:13, 32.80s/it]22it [11:49, 33.56s/it]23it [12:27, 34.83s/it]24it [13:02, 35.15s/it]25it [13:35, 34.27s/it]26it [14:13, 35.39s/it]27it [14:50, 35.85s/it]28it [15:21, 34.44s/it]29it [15:59, 35.73s/it]30it [16:33, 35.20s/it]31it [17:09, 35.34s/it]32it [17:44, 35.09s/it]33it [18:21, 35.64s/it]34it [18:50, 33.90s/it]35it [19:21, 33.03s/it]36it [19:53, 32.72s/it]37it [20:27, 32.92s/it]38it [20:58, 32.33s/it]39it [21:32, 33.01s/it]40it [22:02, 32.07s/it]41it [22:33, 31.79s/it]42it [23:04, 31.57s/it]43it [23:43, 33.55s/it]44it [24:16, 33.44s/it]45it [24:53, 34.58s/it]46it [25:29, 34.95s/it]47it [26:06, 35.51s/it]48it [26:39, 34.91s/it]49it [27:08, 33.03s/it]50it [27:46, 34.58s/it]51it [28:16, 33.27s/it]52it [28:46, 32.14s/it]53it [29:19, 32.61s/it]54it [29:50, 32.03s/it]55it [30:25, 33.01s/it]56it [30:58, 32.95s/it]57it [31:30, 32.62s/it]58it [32:03, 32.61s/it]59it [32:38, 33.57s/it]60it [33:07, 32.09s/it]61it [33:39, 32.13s/it]62it [34:16, 33.54s/it]63it [34:55, 35.26s/it]64it [35:28, 34.40s/it]65it [36:06, 35.46s/it]66it [36:43, 35.92s/it]67it [37:14, 34.43s/it]68it [37:47, 34.14s/it]69it [38:22, 34.22s/it]70it [38:58, 35.02s/it]71it [39:29, 33.78s/it]72it [39:59, 32.63s/it]73it [40:27, 31.10s/it]74it [41:03, 32.52s/it]75it [41:33, 32.02s/it]76it [42:08, 32.73s/it]77it [42:47, 34.59s/it]78it [43:18, 33.45s/it]79it [43:49, 32.81s/it]80it [44:26, 34.09s/it]81it [45:01, 34.40s/it]82it [45:35, 34.22s/it]83it [46:12, 35.24s/it]84it [46:44, 34.25s/it]85it [47:15, 33.18s/it]86it [47:45, 32.06s/it]87it [48:23, 33.92s/it]88it [48:54, 33.09s/it]89it [49:26, 32.81s/it]90it [49:57, 32.35s/it]91it [50:37, 34.41s/it]92it [51:06, 32.92s/it]93it [51:37, 32.48s/it]94it [52:08, 31.93s/it]95it [52:47, 33.94s/it]96it [53:19, 33.45s/it]97it [53:58, 35.20s/it]98it [54:34, 35.37s/it]99it [55:06, 34.42s/it]100it [55:46, 35.92s/it]100it [55:46, 33.46s/it]
+/home/malik.ana/cbai/model.py:61: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_abridged['output'] = output
+/home/malik.ana/cbai/model.py:62: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_abridged['result'] = df_abridged.apply(lambda row: row['answer'] == row['output'], axis=1)
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:13<00:26, 13.03s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:26<00:13, 13.22s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:38<00:00, 12.83s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:38<00:00, 12.92s/it]
+0it [00:00, ?it/s]/shared/EL9/explorer/anaconda3/2024.06/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:540: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+1it [00:44, 44.21s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+2it [01:36, 49.25s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+3it [02:14, 43.91s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+4it [02:53, 41.82s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+5it [03:40, 43.82s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+6it [04:23, 43.39s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+7it [05:01, 41.82s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+8it [05:39, 40.39s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+9it [06:17, 39.72s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+10it [06:56, 39.46s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+11it [07:45, 42.57s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+12it [08:23, 40.99s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+13it [08:58, 39.40s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+14it [09:36, 38.76s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+15it [10:18, 39.98s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+16it [10:58, 39.88s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+17it [11:45, 42.12s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+18it [12:31, 43.04s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+19it [13:17, 44.12s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+20it [14:00, 43.81s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+21it [14:36, 41.33s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+22it [15:19, 41.84s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+23it [16:04, 42.84s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+24it [16:45, 42.35s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+25it [17:26, 41.72s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+26it [18:11, 42.77s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+27it [18:56, 43.50s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+28it [19:32, 41.21s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+29it [20:18, 42.82s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+30it [20:59, 42.04s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+31it [21:41, 42.13s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+32it [22:24, 42.26s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+33it [23:06, 42.41s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+34it [23:42, 40.28s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+35it [24:19, 39.43s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+36it [24:58, 39.41s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+37it [25:39, 39.66s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+38it [26:17, 39.19s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+39it [26:58, 39.90s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+40it [27:34, 38.50s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+41it [28:11, 38.06s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+42it [28:49, 38.19s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+43it [29:34, 40.23s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+44it [30:13, 39.84s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+45it [30:57, 40.97s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+46it [31:39, 41.45s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+47it [32:25, 42.67s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+48it [33:03, 41.23s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+49it [33:39, 39.72s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+50it [34:24, 41.25s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+51it [35:01, 40.12s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+52it [35:36, 38.68s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+53it [36:18, 39.43s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+54it [36:53, 38.37s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+55it [37:34, 39.14s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+56it [38:15, 39.48s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+57it [38:53, 39.05s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+58it [39:33, 39.41s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+59it [40:14, 39.86s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+60it [40:50, 38.72s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+61it [41:27, 38.10s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+62it [42:12, 40.17s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+63it [42:57, 41.87s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+64it [43:35, 40.66s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+65it [44:21, 42.15s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+66it [45:03, 42.20s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+67it [45:41, 40.97s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+68it [46:20, 40.33s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+69it [47:02, 40.86s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+70it [47:47, 41.99s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+71it [48:25, 40.80s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+72it [49:01, 39.31s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+73it [49:33, 37.27s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+74it [50:14, 38.37s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+75it [50:53, 38.43s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+76it [51:32, 38.76s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+77it [52:21, 41.74s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+78it [52:59, 40.62s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+79it [53:38, 40.06s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+80it [54:23, 41.60s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+81it [55:05, 41.81s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+82it [55:48, 42.18s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+83it [56:33, 43.00s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+84it [57:14, 42.40s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+85it [57:54, 41.74s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+86it [58:31, 40.17s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+87it [59:15, 41.43s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+88it [59:53, 40.43s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+89it [1:00:32, 39.98s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+90it [1:01:10, 39.43s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+91it [1:01:58, 41.95s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+92it [1:02:34, 40.21s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+93it [1:03:12, 39.57s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+94it [1:03:48, 38.49s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+95it [1:04:35, 40.90s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+96it [1:05:14, 40.37s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+97it [1:06:03, 43.05s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+98it [1:06:46, 42.83s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+99it [1:07:26, 42.09s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+100it [1:08:11, 42.96s/it]100it [1:08:11, 40.92s/it]
+/home/malik.ana/cbai/model.py:61: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_abridged['output'] = output
+/home/malik.ana/cbai/model.py:62: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_abridged['result'] = df_abridged.apply(lambda row: row['answer'] == row['output'], axis=1)
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:13<00:40, 13.41s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:27<00:27, 14.00s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:42<00:14, 14.27s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:46<00:00, 10.11s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:46<00:00, 11.54s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+0it [00:00, ?it/s]/shared/EL9/explorer/anaconda3/2024.06/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:540: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/shared/EL9/explorer/anaconda3/2024.06/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:545: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+1it [00:38, 38.40s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+2it [01:20, 40.61s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+3it [01:59, 39.75s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+4it [02:37, 38.96s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+5it [03:24, 42.12s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+6it [04:06, 42.02s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+7it [04:46, 41.34s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+8it [05:22, 39.63s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+9it [06:02, 39.72s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+10it [06:40, 39.18s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+11it [07:28, 41.79s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+12it [08:05, 40.39s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+13it [08:39, 38.60s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+14it [09:17, 38.21s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+15it [09:58, 39.29s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+16it [10:39, 39.59s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+17it [11:25, 41.68s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+18it [12:10, 42.50s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+19it [12:56, 43.69s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+20it [13:38, 43.11s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+21it [14:14, 40.98s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+22it [14:56, 41.25s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+23it [15:42, 42.70s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+24it [16:22, 42.00s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+25it [17:02, 41.46s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+26it [17:49, 43.01s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+27it [18:34, 43.60s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+28it [19:11, 41.63s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+29it [19:57, 43.04s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+30it [20:37, 42.14s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+31it [21:19, 42.06s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+32it [22:02, 42.39s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+33it [22:44, 42.24s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+34it [23:20, 40.28s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+35it [23:56, 38.99s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+36it [24:36, 39.34s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+37it [25:15, 39.22s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+38it [25:54, 39.00s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+39it [26:34, 39.51s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+40it [27:11, 38.60s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+41it [27:47, 38.06s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+42it [28:27, 38.35s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+43it [29:11, 40.11s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+44it [29:50, 39.72s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+45it [30:36, 41.65s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+46it [31:17, 41.68s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+47it [32:03, 42.86s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+48it [32:41, 41.31s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+49it [33:17, 39.87s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+50it [34:01, 41.04s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+51it [34:38, 39.94s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+52it [35:14, 38.74s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+53it [35:53, 38.72s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+54it [36:30, 38.22s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+55it [37:10, 38.82s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+56it [37:50, 39.23s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+57it [38:28, 38.61s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+58it [39:08, 39.12s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+59it [39:48, 39.30s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+60it [40:24, 38.33s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+61it [41:01, 37.93s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+62it [41:47, 40.40s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+63it [42:32, 41.66s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+64it [43:09, 40.46s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+65it [43:55, 41.98s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+66it [44:36, 41.84s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+67it [45:15, 40.97s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+68it [45:53, 40.15s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+69it [46:37, 41.10s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+70it [47:18, 41.20s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+71it [47:57, 40.38s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+72it [48:31, 38.67s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+73it [49:05, 37.33s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+74it [49:47, 38.59s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+75it [50:25, 38.36s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+76it [51:06, 39.16s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+77it [51:53, 41.58s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+78it [52:32, 40.80s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+79it [53:10, 40.02s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+80it [53:57, 41.89s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+81it [54:38, 41.75s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+82it [55:18, 41.35s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+83it [56:04, 42.58s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+84it [56:44, 41.81s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+85it [57:24, 41.46s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+86it [58:01, 39.86s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+87it [58:45, 41.13s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+88it [59:22, 39.85s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+89it [1:00:00, 39.55s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+90it [1:00:37, 38.78s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+91it [1:01:24, 41.09s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+92it [1:01:59, 39.37s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+93it [1:02:36, 38.71s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+94it [1:03:13, 38.09s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+95it [1:03:59, 40.38s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+96it [1:04:38, 39.97s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+97it [1:05:23, 41.58s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+98it [1:06:06, 41.96s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+99it [1:06:43, 40.54s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+100it [1:07:26, 41.37s/it]100it [1:07:26, 40.47s/it]
+/home/malik.ana/cbai/model.py:61: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_abridged['output'] = output
+/home/malik.ana/cbai/model.py:62: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_abridged['result'] = df_abridged.apply(lambda row: row['answer'] == row['output'], axis=1)
+Traceback (most recent call last):
+  File "/shared/EL9/explorer/anaconda3/2024.06/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 982, in from_pretrained
+    config_class = CONFIG_MAPPING[config_dict["model_type"]]
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/shared/EL9/explorer/anaconda3/2024.06/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 684, in __getitem__
+    raise KeyError(key)
+KeyError: 'qwen3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/malik.ana/cbai/run_benchmarks.py", line 25, in <module>
+    exp = Model(model, filename)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/malik.ana/cbai/model.py", line 13, in __init__
+    self.model = AutoModelForCausalLM.from_pretrained(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/shared/EL9/explorer/anaconda3/2024.06/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 524, in from_pretrained
+    config, kwargs = AutoConfig.from_pretrained(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/shared/EL9/explorer/anaconda3/2024.06/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 984, in from_pretrained
+    raise ValueError(
+ValueError: The checkpoint you are trying to load has model type `qwen3` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.

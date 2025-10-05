@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/shared/EL9/explorer/anaconda3/2024.06/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 982, in from_pretrained
+    config_class = CONFIG_MAPPING[config_dict["model_type"]]
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/shared/EL9/explorer/anaconda3/2024.06/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 684, in __getitem__
+    raise KeyError(key)
+KeyError: 'qwen3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/malik.ana/cbai/run_benchmarks.py", line 32, in <module>
+    exp = Model(model, filename)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/malik.ana/cbai/model.py", line 13, in __init__
+    self.model = AutoModelForCausalLM.from_pretrained(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/shared/EL9/explorer/anaconda3/2024.06/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 524, in from_pretrained
+    config, kwargs = AutoConfig.from_pretrained(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/shared/EL9/explorer/anaconda3/2024.06/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 984, in from_pretrained
+    raise ValueError(
+ValueError: The checkpoint you are trying to load has model type `qwen3` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.

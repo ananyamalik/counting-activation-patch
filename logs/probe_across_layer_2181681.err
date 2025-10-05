@@ -1,0 +1,7 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.41s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.41s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.42s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.01s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.16s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Traceback (most recent call last):
+  File "/home/malik.ana/cbai/mediation_with_activation_patching.py", line 107, in <module>
+    for i in tqdm(range(len(source_data))):
+             ^^^^
+NameError: name 'tqdm' is not defined
